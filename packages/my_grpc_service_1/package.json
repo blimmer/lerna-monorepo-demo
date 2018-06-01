@@ -1,6 +1,6 @@
 {
   "name": "my_grpc_service_1-protofiles",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "My gRPC Service 1",
   "dependencies": {
