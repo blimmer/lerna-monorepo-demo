@@ -13,4 +13,6 @@ message EntityUri {
     // and should only be used for reference.
     // [Optional]
     string name = 2;
+
+    string a_new_base_property = 3;
 }
