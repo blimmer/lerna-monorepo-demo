@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ibotta_pb.my_grpc_service_2;
+
+import "ibotta_pb/system/entity.proto"; // <- located in "ib_core"
+
+message MyServiceRequest {
+  ibotta_pb.system.EntityUri offer_uri = 1;
+}

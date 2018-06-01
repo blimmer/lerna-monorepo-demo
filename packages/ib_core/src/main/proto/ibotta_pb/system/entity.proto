@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package ibotta_pb.system;
+
+// Identifies an entity across systems.
+message EntityUri {
+    // Uniquely identifies the entity across all systems.
+    // All entities must have a URI, the other identifiers merely
+    // provided system-specific support for easy joins.
+    string uri = 1;
+    // Human-readable name of this object.
+    // Should never be considered unique for any purposes
+    // and should only be used for reference.
+    // [Optional]
+    string name = 2;
+}

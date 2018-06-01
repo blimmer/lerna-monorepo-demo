@@ -1,0 +1,9 @@
+{
+  "name": "my_grpc_service_2-protofiles",
+  "version": "1.0.0-beta.1",
+  "private": true,
+  "description": "My gRPC Service 2",
+  "dependencies": {
+    "ib_core-protofiles": "1.x"
+  }
+}

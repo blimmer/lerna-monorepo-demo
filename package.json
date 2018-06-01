@@ -1,0 +1,10 @@
+{
+  "name": "lerna-monorepo-demo",
+  "version": "0.0.0",
+  "repository": "git@github.com:blimmer/lerna-monorepo-demo.git",
+  "author": "Ben Limmer <ben@benlimmer.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
