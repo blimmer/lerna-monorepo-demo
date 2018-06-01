@@ -6,4 +6,6 @@ import "ibotta_pb/system/entity.proto"; // <- located in "ib_core"
 
 message MyServiceRequest {
   ibotta_pb.system.EntityUri shopper_uri = 1;
+
+  int32 a_new_field = 2;
 }
