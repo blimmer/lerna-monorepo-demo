@@ -1,6 +1,6 @@
 {
   "name": "ib_core-protofiles",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "private": true,
   "description": "Protobuf base packages"
 }
